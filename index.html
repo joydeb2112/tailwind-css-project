@@ -9,14 +9,48 @@
         integrity="sha512-7dlzSK4Ulfm85ypS8/ya0xLf3NpXiML3s6HTLu4qDq7WiJWtLLyrXb9putdP3/1umwTmzIvhuu9EW7gHYSVtCQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <header>
+<body class="font-sans">
+    <header class="max-w-7xl m-auto">
+        <nav class="flex items-center justify-between mt-5">
+            <div class="flex items-center">
+                <img class="w-10 h-10" src="images/business.png" alt="">
+                <h3 class="text-4xl font-bold">Justice</h3>
+            </div>
+            <ul class="flex">
+                <li class="text-base ml-10"><a href="">Home</a></li>
+                <li class="text-base ml-10"><a href="">Services></a></li>
+                <li class="text-base ml-10"><a href="">Cases></a></li>
+                <li class="text-base ml-10"><a href="">Blog></a></li>
+                <li class="text-base ml-10"><a href="">Contact Us></a></li>
+            </ul>
+            <button class="rounded-md px-3 py-2.5 bg-yellow-600 text-cyan-50 font-bold">Free Consultation</button>
+        </nav>
 
+        <div
+            class="max-w-7xl h-dvh m-auto mt-6 bg-[url('images/banner.png')] bg-no-repeat bg-cover flex items-center justify-center ">
+            <div class="text-center">
+                <h3 class="text-7xl max-w-2xl text-blue-50">We Provide Effective Legal Solutions</h3>
+                <p class="text-[1rem] max-w-2xl text-fuchsia-50 mt-6 mb-7">There are many variations of passages of
+                    Lorem Ipsum available,
+                    but
+                    the majority have suffered alteration
+                    in some form, by injected humour.</p>
+                <input class="h-14 w-lg bg-blue-50 px-3.5 rounded-lg" type="search" placeholder="Search your services">
+                <input class="text-blue-50 bg-yellow-600 h-14 w-24 border-none ml-5 rounded-lg" type="button"
+                    value="Search">
+            </div>
+        </div>
     </header>
-    <main>
-
+    <main class="m-auto max-w-7xl text-center mt-24">
+        <div class="max-w-2xl m-auto">
+            <h3 class="text-4xl">The Legal Practice Area</h3>
+            <p class="text-[1rem]">There are many variations of passages of Lorem Ipsum available, but the majority have
+                suffered alteration
+                in some form, by injected humour.</p>
+        </div>
     </main>
     <footer>
 
