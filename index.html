@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tailwind css Project</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fontawesome-iconpicker/3.2.0/js/fontawesome-iconpicker.min.js"
-        integrity="sha512-7dlzSK4Ulfm85ypS8/ya0xLf3NpXiML3s6HTLu4qDq7WiJWtLLyrXb9putdP3/1umwTmzIvhuu9EW7gHYSVtCQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+        integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -17,7 +17,7 @@
         <nav class="flex items-center justify-between mt-5">
             <div class="flex items-center">
                 <img class="w-10 h-10" src="images/business.png" alt="">
-                <h3 class="text-4xl font-bold">Justice</h3>
+                <h3 class="text-4xl font-bold ml-2.5">Justice</h3>
             </div>
             <ul class="flex">
                 <li class="text-base ml-10"><a href="">Home</a></li>
@@ -26,20 +26,20 @@
                 <li class="text-base ml-10"><a href="">Blog></a></li>
                 <li class="text-base ml-10"><a href="">Contact Us></a></li>
             </ul>
-            <button class="rounded-md px-3 py-2.5 bg-yellow-600 text-cyan-50 font-bold">Free Consultation</button>
+            <button class="rounded-md px-3 py-2.5 bg-yellow-600 text-white font-bold">Free Consultation</button>
         </nav>
 
         <div
-            class="max-w-7xl h-dvh m-auto mt-6 bg-[url('images/banner.png')] bg-no-repeat bg-cover flex items-center justify-center ">
+            class="max-w-7xl h-dvh m-auto mt-6 bg-[url('images/banner.png')] bg-no-repeat bg-cover flex items-center justify-center">
             <div class="text-center">
-                <h3 class="text-7xl max-w-2xl text-blue-50">We Provide Effective Legal Solutions</h3>
-                <p class="text-[1rem] max-w-2xl text-fuchsia-50 mt-6 mb-7">There are many variations of passages of
+                <h3 class="text-7xl max-w-2xl text-white">We Provide Effective Legal Solutions</h3>
+                <p class="text-[1rem] max-w-2xl text-white mt-6 mb-7">There are many variations of passages of
                     Lorem Ipsum available,
                     but
                     the majority have suffered alteration
                     in some form, by injected humour.</p>
-                <input class="h-14 w-lg bg-blue-50 px-3.5 rounded-lg" type="search" placeholder="Search your services">
-                <input class="text-blue-50 bg-yellow-600 h-14 w-24 border-none ml-5 rounded-lg" type="button"
+                <input class="h-14 w-lg bg-white px-3.5 rounded-lg" type="search" placeholder="Search your services">
+                <input class="text-white bg-yellow-600 h-14 w-24 border-none ml-5 rounded-lg" type="button"
                     value="Search">
             </div>
         </div>
@@ -47,9 +47,58 @@
     <main class="m-auto max-w-7xl text-center mt-24">
         <div class="max-w-2xl m-auto">
             <h3 class="text-4xl">The Legal Practice Area</h3>
-            <p class="text-[1rem]">There are many variations of passages of Lorem Ipsum available, but the majority have
+            <p class="text-[1rem] mt-6">There are many variations of passages of Lorem Ipsum available, but the majority have
                 suffered alteration
                 in some form, by injected humour.</p>
+        </div>
+
+        <div class="max-w-7xl grid grid-cols-3 gap-14 mt-16">
+            <div>
+                <img class="m-auto mt-3.5" src="images/business.png" alt="">
+                <h4 class="text-3xl mt-8 mb-6 font-bold">Business Law</h4>
+                <p class="ml-20 mr-20 text-[1rem]">There are many variations of passages of Lorem Ipsum available, but
+                    the majority have suffered
+                    alteration in some form, by injected humour.</p>
+                <a class="text-3xl mt-2.5 mb-2.5"><i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+
+            <div class="border-x-2">
+                <img class="m-auto mt-3.5" src="images/criminal.png" alt="">
+                <h4 class="text-3xl mt-8 mb-6 font-bold">Criminal Law</h4>
+                <p class="ml-20 mr-20 text-[1rem]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                    alteration in some form, by injected humour.</p>
+                <a class="text-3xl mt-2.5 mb-2.5"><i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+
+            <div>
+                <img class="m-auto mt-3.5" src="images/child.png" alt="">
+                <h4 class="text-3xl mt-8 mb-6 font-bold">Child Support</h4>
+                <p class="ml-20 mr-20 text-[1rem]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                    alteration in some form, by injected humour.</p>
+                <a class="text-3xl mt-2.5 mb-2.5"><i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div>
+                <img class="m-auto mt-3.5" src="images/education.png" alt="">
+                <h4 class="text-3xl mt-8 mb-6 font-bold">Education Law</h4>
+                <p class="ml-20 mr-20 text-[1rem]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                    alteration in some form, by injected humour.</p>
+                <a class="text-3xl mt-2.5 mb-2.5"><i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div class="border-x-2">
+                <img class="m-auto mt-3.5" src="images/divorce.png" alt="">
+                <h4 class="text-3xl mt-8 mb-6 font-bold">Divorce Law</h4>
+                <p class="ml-20 mr-20 text-[1rem]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                    alteration in some form, by injected humour.</p>
+                <a class="text-3xl mt-2.5 mb-2.5"><i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div>
+                <img class="m-auto mt-3.5" src="images/tax.png" alt="">
+                <h4 class="text-3xl mt-8 mb-6 font-bold">Tax Law</h4>
+                <p class="ml-20 mr-20 text-[1rem]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                    alteration in some form, by injected humour.</p>
+                <a class="text-3xl mt-2.5 mb-2.5"><i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+
         </div>
     </main>
     <footer>
