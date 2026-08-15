@@ -14,12 +14,12 @@
 
 <body class="font-sans">
     <header class="max-w-7xl m-auto">
-        <nav class="flex items-center justify-between mt-5">
+        <nav class="flex flex-col md:flex-row items-center justify-between mt-5">
             <div class="flex items-center">
                 <img class="w-10 h-10" src="images/business.png" alt="">
                 <h3 class="text-4xl font-bold ml-2.5">Justice</h3>
             </div>
-            <ul class="flex">
+            <ul class="flex flex-col md:flex-row">
                 <li class="text-base ml-10"><a href="">Home</a></li>
                 <li class="text-base ml-10"><a href="">Services></a></li>
                 <li class="text-base ml-10"><a href="">Cases></a></li>
@@ -125,7 +125,7 @@
                     simply random text. It has roots in a piece of
                     classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin
                     professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
-                    consectetur.</p>
+                    con sectetur.</p>
             </div>
         </div>
 
@@ -168,8 +168,8 @@
                 alteration in some form, by injected humour.</p>
         </div>
         <!-- from contact -->
-        <div class="grid grid-cols-2 gap-8 mb-11">
-            <div class=" grid grid-cols-2 bg-gray-300 h-[550px]">
+        <div class="grid md:grid-cols-1 grid-cols-2 gap-8 mb-11">
+            <div class=" grid md:grid-cols-1 grid-cols-2 bg-gray-300 h-[550px]">
                 <div class="px-12 py-7">
                     <img class="m-auto h-16 w-16" src="images/location.png" alt="">
                     <h4 class="text-3xl font-medium">Address</h4>
@@ -211,10 +211,10 @@
             </div>
         </div>
     </main>
-    <footer class="w-dvw bg-gray-900 text-gray-300 m-auto h-[550px]">
-        <div class="w-7xl m-auto flex items-center gap-10">
+    <footer class="w-dvw md:w-full bg-gray-900 text-gray-300 m-auto h-[400px] md:h-full">
+        <div class="w-7xl m-auto flex flex-col md:flex-row items-center gap-10">
             <div class="h-52 w-64 mt-28">
-                <div class="flex items-center">
+                <div class="flex flex-col md:flex-row items-center">
                     <img class="w-10 h-10" src="images/business.png" alt="">
                     <h3 class="text-4xl font-bold ml-2.5">Justice</h3>
                 </div>
@@ -224,7 +224,7 @@
                     suffered alteration in some form, by injected humour.</p>
             </div>
             <div class="h-52 w-64 mt-28">
-                <h3 class="text-4xl font-bold ml-2.5">Usefull Link</h3>
+                <h3 class="text-4xl font-bold ml-2.5">Useful Link</h3>
                 <div class="ml-3 mt-8">
                     <p> Homes</p>
                     <p>About Us</p>
